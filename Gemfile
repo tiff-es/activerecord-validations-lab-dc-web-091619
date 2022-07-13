@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '>= 5.2.8.1'
 gem 'sqlite3', '~> 1.3.6'
 gem 'bootsnap'
 gem 'sass-rails', '~> 5.0'
