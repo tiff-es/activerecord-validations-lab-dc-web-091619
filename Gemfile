@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'rails'
+gem 'rails', '>= 6.1.7.3'
 gem 'sqlite3', '~> 1.3.6'
 gem 'bootsnap'
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
-gem 'jquery-rails'
-gem 'jbuilder', '~> 2.0'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'coffee-rails', '~> 4.2.2'
+gem 'jquery-rails', '>= 4.4.0'
+gem 'jbuilder', '~> 2.8', '>= 2.8.0'
+gem 'sdoc', '~> 1.0.0', group: :doc
 
 group :development, :test do
   gem 'rspec-rails'
